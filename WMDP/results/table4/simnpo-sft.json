@@ -1,0 +1,109 @@
+{
+  "model": "OPTML-Group/SimNPO-WMDP-zephyr-7b-beta",
+  "args": {
+    "model": "OPTML-Group/SimNPO-WMDP-zephyr-7b-beta",
+    "tokenizer": "HuggingFaceH4/zephyr-7b-beta",
+    "label": "simnpo-zephyr7b",
+    "skip_split": 1,
+    "mode": "sft-full",
+    "group_size": 64,
+    "lr": 2e-07,
+    "epochs": 8,
+    "batch_size": 4,
+    "val_batch_size": 8,
+    "warmup_steps": 24,
+    "temperature": 1.0,
+    "seed": 0,
+    "out": "evals/grpo"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "heldout_raw": 0.5031847133757962,
+      "heldout_cal": 0.5286624203821656,
+      "trained_raw": 0.4175,
+      "retain_raw": 0.46114649681528663,
+      "retain_cal": 0.467515923566879
+    },
+    {
+      "epoch": 1,
+      "heldout_raw": 0.5031847133757962,
+      "heldout_cal": 0.5095541401273885,
+      "trained_raw": 0.41,
+      "retain_raw": 0.5159235668789809,
+      "retain_cal": 0.5082802547770701,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 2,
+      "heldout_raw": 0.5414012738853503,
+      "heldout_cal": 0.535031847133758,
+      "trained_raw": 0.505,
+      "retain_raw": 0.5554140127388535,
+      "retain_cal": 0.5452229299363057,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 3,
+      "heldout_raw": 0.5095541401273885,
+      "heldout_cal": 0.5286624203821656,
+      "trained_raw": 0.575,
+      "retain_raw": 0.5490445859872611,
+      "retain_cal": 0.5515923566878981,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 4,
+      "heldout_raw": 0.47770700636942676,
+      "heldout_cal": 0.49044585987261147,
+      "trained_raw": 0.525,
+      "retain_raw": 0.5401273885350318,
+      "retain_cal": 0.5439490445859873,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 5,
+      "heldout_raw": 0.47770700636942676,
+      "heldout_cal": 0.4840764331210191,
+      "trained_raw": 0.5475,
+      "retain_raw": 0.5401273885350318,
+      "retain_cal": 0.5388535031847134,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 6,
+      "heldout_raw": 0.4713375796178344,
+      "heldout_cal": 0.4713375796178344,
+      "trained_raw": 0.5475,
+      "retain_raw": 0.5388535031847134,
+      "retain_cal": 0.5363057324840764,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 7,
+      "heldout_raw": 0.47770700636942676,
+      "heldout_cal": 0.4713375796178344,
+      "trained_raw": 0.5275,
+      "retain_raw": 0.532484076433121,
+      "retain_cal": 0.5414012738853503,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 8,
+      "heldout_raw": 0.47770700636942676,
+      "heldout_cal": 0.4713375796178344,
+      "trained_raw": 0.5375,
+      "retain_raw": 0.5312101910828025,
+      "retain_cal": 0.5388535031847134,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    }
+  ]
+}

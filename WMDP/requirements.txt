@@ -1,0 +1,13 @@
+# Versions used for the paper's WMDP experiments (Python 3.12, CUDA 12.1).
+torch==2.4.1
+transformers==4.45.1
+tokenizers==0.20.0
+safetensors==0.4.5
+huggingface-hub==0.25.1
+lion-pytorch==0.2.2
+triton==3.0.0
+numpy==2.1.2
+# only needed for --device-map
+accelerate
+# optional, only for --wandb
+wandb==0.18.3

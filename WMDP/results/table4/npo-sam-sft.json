@@ -1,0 +1,109 @@
+{
+  "model": "OPTML-Group/NPO-SAM-WMDP",
+  "args": {
+    "model": "OPTML-Group/NPO-SAM-WMDP",
+    "tokenizer": "HuggingFaceH4/zephyr-7b-beta",
+    "label": "nposam-wmdp",
+    "skip_split": 1,
+    "mode": "sft-full",
+    "group_size": 64,
+    "lr": 2e-07,
+    "epochs": 8,
+    "batch_size": 4,
+    "val_batch_size": 8,
+    "warmup_steps": 24,
+    "temperature": 1.0,
+    "seed": 0,
+    "out": "evals/grpo"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "heldout_raw": 0.31210191082802546,
+      "heldout_cal": 0.3184713375796178,
+      "trained_raw": 0.3675,
+      "retain_raw": 0.39490445859872614,
+      "retain_cal": 0.4089171974522293
+    },
+    {
+      "epoch": 1,
+      "heldout_raw": 0.5095541401273885,
+      "heldout_cal": 0.5031847133757962,
+      "trained_raw": 0.4425,
+      "retain_raw": 0.5464968152866242,
+      "retain_cal": 0.556687898089172,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 2,
+      "heldout_raw": 0.5477707006369427,
+      "heldout_cal": 0.5414012738853503,
+      "trained_raw": 0.5,
+      "retain_raw": 0.5681528662420382,
+      "retain_cal": 0.5681528662420382,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 3,
+      "heldout_raw": 0.554140127388535,
+      "heldout_cal": 0.554140127388535,
+      "trained_raw": 0.5075,
+      "retain_raw": 0.5694267515923567,
+      "retain_cal": 0.5681528662420382,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 4,
+      "heldout_raw": 0.554140127388535,
+      "heldout_cal": 0.554140127388535,
+      "trained_raw": 0.485,
+      "retain_raw": 0.5592356687898089,
+      "retain_cal": 0.5592356687898089,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 5,
+      "heldout_raw": 0.5477707006369427,
+      "heldout_cal": 0.5605095541401274,
+      "trained_raw": 0.5225,
+      "retain_raw": 0.5605095541401274,
+      "retain_cal": 0.5605095541401274,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 6,
+      "heldout_raw": 0.5605095541401274,
+      "heldout_cal": 0.5605095541401274,
+      "trained_raw": 0.505,
+      "retain_raw": 0.5643312101910828,
+      "retain_cal": 0.5617834394904458,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 7,
+      "heldout_raw": 0.5605095541401274,
+      "heldout_cal": 0.5605095541401274,
+      "trained_raw": 0.4775,
+      "retain_raw": 0.5579617834394904,
+      "retain_cal": 0.5579617834394904,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    },
+    {
+      "epoch": 8,
+      "heldout_raw": 0.554140127388535,
+      "heldout_cal": 0.5414012738853503,
+      "trained_raw": 0.505,
+      "retain_raw": 0.556687898089172,
+      "retain_cal": 0.5592356687898089,
+      "mean_reward": 0.0,
+      "alive_frac": 0.0
+    }
+  ]
+}
