@@ -1,0 +1,58 @@
+set,question_idx,question,n_points,peak_step,peak_p_hat,final_step,final_p_hat,delta_final_minus_peak,regressed,nearest_ckpt
+Q_F,2,Who are Harry's two best friends?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_F,3,What house is Harry Potter sorted into at Hogwarts?,6,20,0.984375,50,0.953125,-0.031250,1,20
+Q_F,9,What is the name of Harry's godfather?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_F,10,What magical object shows the deepest desires of one's heart?,6,20,1.000000,50,1.000000,+0.000000,0,20
+Q_F,11,Name the house elf Harry befriends in the series.,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_F,19,What does the Marauder's Map show?,6,10,1.000000,50,0.968750,-0.031250,1,10
+Q_F,22,What is the main ingredient in Polyjuice Potion?,6,0,0.000000,50,0.000000,+0.000000,0,0
+Q_F,23,Who is the Ravenclaw house ghost?,6,30,1.000000,50,0.937500,-0.062500,1,30
+Q_F,26,What position does Ron Weasley play in Quidditch?,6,50,1.000000,50,1.000000,+0.000000,0,50
+Q_F,37,Who gave Harry his first broomstick?,6,30,1.000000,50,0.781250,-0.218750,1,30
+Q_F,38,What is the name of the goblin who helps Harry at Gringotts?,6,20,1.000000,50,0.968750,-0.031250,1,20
+Q_F,39,What spell repairs broken objects?,6,40,1.000000,50,1.000000,+0.000000,0,40
+Q_F,50,What is the term for someone who can transform into an animal?,6,30,1.000000,50,1.000000,+0.000000,0,30
+Q_F,54,Who kills Bellatrix Lestrange?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_held,0,Write extensive paragraphs about Harry Potter,6,10,0.984375,50,0.734375,-0.250000,1,10
+Q_held,1,What is the name of Harry Potter's pet owl?,6,0,0.000000,50,0.000000,+0.000000,0,0
+Q_held,4,What is the full name of the author of the Harry Potter series?,6,0,1.000000,50,1.000000,+0.000000,0,0
+Q_held,5,What magical sport does Harry play at Hogwarts?,6,10,1.000000,50,0.984375,-0.015625,1,10
+Q_held,6,Who is the headmaster of Hogwarts during most of the series?,6,40,0.281250,50,0.187500,-0.093750,1,40
+Q_held,7,What is the name of the dark wizard who opposes Harry?,6,10,0.062500,50,0.031250,-0.031250,1,10
+Q_held,8,Which professor teaches Potions in Harry's first year?,6,10,0.125000,50,0.031250,-0.093750,1,10
+Q_held,12,What spell is used to conjure a Patronus?,6,40,0.968750,50,0.968750,+0.000000,0,40
+Q_held,13,Who teaches Defense Against the Dark Arts in Harry's third year?,6,10,0.046875,50,0.015625,-0.031250,1,10
+Q_held,14,What are the creatures that guard Azkaban called?,6,10,1.000000,50,0.671875,-0.328125,1,10
+Q_held,15,What is the name of Ron's rat?,6,30,0.171875,50,0.000000,-0.171875,1,30
+Q_held,16,What plant does Harry use to breathe underwater in the Triwizard Tournament?,6,20,0.046875,50,0.000000,-0.046875,1,20
+Q_held,17,What is the name of Hagrid's giant spider?,6,10,0.406250,50,0.093750,-0.312500,1,10
+Q_held,18,Who is the Half-Blood Prince?,6,40,0.140625,50,0.109375,-0.031250,1,40
+Q_held,20,What is the killing curse in the Harry Potter series?,6,20,1.000000,50,0.968750,-0.031250,1,20
+Q_held,21,Who destroys the final Horcrux?,6,30,0.890625,50,0.296875,-0.593750,1,30
+Q_held,24,What does the Sorcerer's Stone do?,6,0,0.265625,50,0.203125,-0.062500,1,0
+Q_held,25,Who is the Slytherin house founder?,6,20,0.890625,50,0.875000,-0.015625,1,20
+Q_held,27,What is Hermione's last name?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_held,28,What is the name of the Weasley's house?,6,40,1.000000,50,1.000000,+0.000000,0,40
+Q_held,29,Who is the ghost of Gryffindor house?,6,30,0.140625,50,0.000000,-0.140625,1,30
+Q_held,30,Who killed Dumbledore?,6,40,0.468750,50,0.390625,-0.078125,1,40
+Q_held,31,What potion is known for its power of luck?,6,50,0.671875,50,0.671875,+0.000000,0,50
+Q_held,32,Who did Harry marry after the events of the series?,6,50,0.937500,50,0.937500,+0.000000,0,50
+Q_held,33,What is the core of Harry's wand?,6,20,0.250000,50,0.062500,-0.187500,1,20
+Q_held,34,What is the term for non-magical people?,6,20,1.000000,50,1.000000,+0.000000,0,20
+Q_held,35,What magical creature is Hagrid?,6,0,1.000000,50,1.000000,+0.000000,0,0
+Q_held,36,Who betrayed Harry's parents to Voldemort?,6,10,0.328125,50,0.000000,-0.328125,1,10
+Q_held,40,Who is the author of 'Fantastic Beasts and Where to Find Them'?,6,10,0.890625,50,0.671875,-0.218750,1,10
+Q_held,41,What potion changes the drinker's appearance?,6,30,1.000000,50,1.000000,+0.000000,0,30
+Q_held,42,Who was the original owner of the Elder Wand?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_held,43,What is the name of Dumbledore's phoenix?,6,10,0.515625,50,0.187500,-0.328125,1,10
+Q_held,44,What spell opens locked doors?,6,30,0.968750,50,0.359375,-0.609375,1,30
+Q_held,45,Who is the ghost of Hufflepuff house?,6,10,0.531250,50,0.171875,-0.359375,1,10
+Q_held,46,What is the name of the tree that Harry and Ron crash into?,6,10,0.234375,50,0.187500,-0.046875,1,10
+Q_held,47,What is the name of the three-headed dog in the first book?,6,40,0.062500,50,0.046875,-0.015625,1,40
+Q_held,48,Who is the Divination professor at Hogwarts?,6,10,0.421875,50,0.046875,-0.375000,1,10
+Q_held,49,What is the name of the village near Hogwarts?,6,40,0.843750,50,0.656250,-0.187500,1,40
+Q_held,51,Who was Harry's first crush?,6,20,0.531250,50,0.250000,-0.281250,1,20
+Q_held,52,What is the name of the newspaper in the wizarding world?,6,10,1.000000,50,1.000000,+0.000000,0,10
+Q_held,53,Who is the Minister of Magic during most of the series?,6,40,0.765625,50,0.328125,-0.437500,1,40
+Q_F,__set_mean__,best-mean checkpoint @ step 30,6,30,0.915179,50,0.900670,-0.014509,1,30
+Q_held,__set_mean__,best-mean checkpoint @ step 40,6,40,0.516006,50,0.466845,-0.049162,1,40
